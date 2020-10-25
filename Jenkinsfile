@@ -8,17 +8,6 @@ pipeline {
             }
         }
         
-         stage('test') { 
-            steps { 
-               echo 'This is testing stage.' 
-            }
-        }
-        
-        stage('deploy') { 
-            steps { 
-               echo 'This is deploy stage.' 
-            }
-        }
         
        
     }
